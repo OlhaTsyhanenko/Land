@@ -1,0 +1,50 @@
+.btn {
+    display: block;
+    padding: 16px 32px;
+    margin-top: 24px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: var(--fontColor);
+    background-color: var(--btnColor);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--hoverColor);
+    }
+}
+
+.btn_hero {
+    display: flex;
+    align-items: center;
+}
+
+.btn_read {
+    background-color: transparent;
+    border: 1px solid var(--bgBodyColor);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--bgBodyColor);
+        border: 1px solid var(--hoverColor);
+        color: var(--hoverColor);
+    }
+
+    &.read-blog {
+        &:hover,
+         &:focus {
+            background-color: var(--bgBodyColor);
+            border: 1px solid #0284D0;
+            color: #0284D0;
+        }
+    }
+}
+
+.btn_send {
+    padding: 16px 56px;
+}

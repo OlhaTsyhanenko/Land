@@ -1,0 +1,26 @@
+:root {
+
+    // Colors
+    --bgBodyColor: #ffffff;
+    --fontColor: #FFFFFF;
+
+    --accentColor: #333333;
+    --hoverColor: #2EBF4F; //
+    --btnColor: #28A745; //
+    --formColor: #F4F4F4;
+    --placeholderColor: #808080;
+
+    // Fonts
+
+    --mainFontSize: 18px;
+
+    //screen
+    --mobile: 320px;
+    --tablet: 768px;
+    --desktop: 1360px;
+}
+
+//screen
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1360px;

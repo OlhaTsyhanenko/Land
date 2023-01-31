@@ -1,0 +1,12 @@
+.section__cases {
+    margin-bottom: 40px;
+
+    @media screen and (min-width:$desktop) {
+        margin-bottom: 80px;
+    }
+}
+
+.cases__description {
+    text-align: center;
+    color: var(--accentColor);
+}

@@ -1,0 +1,11 @@
+.title {
+    font-size: 32px;
+    color: var(--accentColor);
+    margin-top: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+
+    @media screen and (min-width: $tablet){
+        font-size: 40px;
+    }
+}

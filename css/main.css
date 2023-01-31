@@ -1,0 +1,130 @@
+:root {
+  --bgBodyColor: #ffffff;
+  --fontColor: #FFFFFF;
+  --accentColor: #333333;
+  --hoverColor: #2EBF4F;
+  --btnColor: #28A745;
+  --formColor: #F4F4F4;
+  --placeholderColor: #808080;
+  --mainFontSize: 18px;
+  --mobile: 320px;
+  --tablet: 768px;
+  --desktop: 1360px;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  min-width: var(--mobile);
+  margin: 0;
+  color: var(--fontColor);
+  background-color: var(--bgBodyColor);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.388;
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: var(--mainFontSize);
+    line-height: 1.3616;
+  }
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  display: block;
+  padding: 16px 32px;
+  margin-top: 24px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: var(--fontColor);
+  background-color: var(--btnColor);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover, .btn:focus {
+  background-color: var(--hoverColor);
+}
+
+.btn_hero {
+  display: flex;
+  align-items: center;
+}
+
+.btn_read {
+  background-color: transparent;
+  border: 1px solid var(--bgBodyColor);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn_read:hover, .btn_read:focus {
+  background-color: var(--bgBodyColor);
+  border: 1px solid var(--hoverColor);
+  color: var(--hoverColor);
+}
+.btn_read.read-blog:hover, .btn_read.read-blog:focus {
+  background-color: var(--bgBodyColor);
+  border: 1px solid #0284D0;
+  color: #0284D0;
+}
+
+.btn_send {
+  padding: 16px 56px;
+}
+
+.title {
+  font-size: 32px;
+  color: var(--accentColor);
+  margin-top: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
+.section__cases {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1360px) {
+  .section__cases {
+    margin-bottom: 80px;
+  }
+}
+
+.cases__description {
+  text-align: center;
+  color: var(--accentColor);
+}/*# sourceMappingURL=main.css.map */
