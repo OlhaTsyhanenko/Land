@@ -1,10 +1,11 @@
-.section__about-us {
-    margin-bottom: 56px;
-    background-color: var(--btnColor);
+.section__blog {
+    margin-bottom: 72px;
+    background-color: var(--blueColor);
 
 
     @media screen and (min-width: $tablet) {
         display: flex;
+        align-items: stretch;
         margin-bottom: 50px;
     }
 
@@ -13,7 +14,7 @@
     }
 }
 
-.about-us__img {
+.blog__img {
     min-width: 320px;
 
     @media screen and (min-width: $tablet) {
@@ -25,14 +26,14 @@
     }
 }
 
-.about-us__info {
-    padding: 79px 20px;
+.blog__info {
+    padding: 48px 20px 58px 20px;
 
     @media screen and (min-width: $tablet) {
-        padding: 62px 32px;
+        padding: 59px 32px;
     }
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $desktop) {
         padding: 80px 20px;
     }
 }

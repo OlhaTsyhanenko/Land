@@ -6,6 +6,7 @@
   --btnColor: #28A745;
   --formColor: #F4F4F4;
   --placeholderColor: #808080;
+  --blueColor: #0284D0;
   --mainFontSize: 18px;
   --mobile: 320px;
   --tablet: 768px;
@@ -94,8 +95,8 @@ body {
 }
 .btn_read.read-blog:hover, .btn_read.read-blog:focus {
   background-color: var(--bgBodyColor);
-  border: 1px solid #0284D0;
-  color: #0284D0;
+  border: 1px solid var(--blueColor);
+  color: var(--blueColor);
 }
 
 .btn_send {
@@ -117,6 +118,7 @@ body {
 
 .title_left {
   text-align: left;
+  color: var(--fontColor);
 }
 
 .section {
@@ -209,5 +211,50 @@ body {
   .cases__list {
     margin-top: 36px;
     grid-template-columns: repeat(3, 421px);
+  }
+}
+
+.section__blog {
+  margin-bottom: 72px;
+  background-color: var(--blueColor);
+}
+@media screen and (min-width: 768px) {
+  .section__blog {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .section__blog {
+    margin-bottom: 80px;
+  }
+}
+
+.blog__img {
+  min-width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .blog__img {
+    min-width: 368px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .blog__img {
+    min-width: 670px;
+  }
+}
+
+.blog__info {
+  padding: 48px 20px 58px 20px;
+}
+@media screen and (min-width: 768px) {
+  .blog__info {
+    padding: 59px 32px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .blog__info {
+    padding: 80px 20px;
   }
 }/*# sourceMappingURL=main.css.map */

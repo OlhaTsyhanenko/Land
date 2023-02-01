@@ -41,7 +41,7 @@
             ./images/about-us/team_mobile.jpg    1x,
             ./images/about-us/team_mobile@2x.jpg 2x
           "
-          media="(max-width: 767px)"
+          media="(max-width: 767.99px)"
           type="image/jpeg"
         />
         <img src="./images/about-us/team_desktop.jpg.jpg" alt="team" />
@@ -242,6 +242,49 @@
           </picture>
         </li>
       </ul>
+    </section>
+    <section class="section section__blog">
+      <div class="blog__info">
+        <p class="blog__description">April 16 2020</p>
+        <h2 class="title title_left">Blog Post One</h2>
+        <p class="blog__description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
+        <button type="button" class="btn btn_read read-blog">
+          Read Our Blog
+        </button>
+      </div>
+
+      <picture class="blog__img">
+        <source
+          srcset="
+            ./images/blog-post/cup_desktop.jpg    1x,
+            ./images/blog-post/cup_desktop@2x.jpg 2x
+          "
+          media="(min-width: 1360px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./images/blog-post/cup_tablet.jpg    1x,
+            ./images/blog-post/cup_tablet@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="
+            ./images/ablog-post/cup_mobile.jpg   1x,
+            ./images/blog-post/cup_mobile@2x.jpg 2x
+          "
+          media="(max-width: 767.99px)"
+          type="image/jpeg"
+        />
+        <img src="./images/ablog-post/cup__desktop.jpg.jpg" alt="cup" />
+      </picture>
     </section>
   </body>
 </html>

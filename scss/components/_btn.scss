@@ -39,8 +39,8 @@
         &:hover,
          &:focus {
             background-color: var(--bgBodyColor);
-            border: 1px solid #0284D0;
-            color: #0284D0;
+            border: 1px solid var(--blueColor);
+            color: var(--blueColor);
         }
     }
 }
