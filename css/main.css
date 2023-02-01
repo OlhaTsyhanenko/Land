@@ -127,4 +127,24 @@ body {
 .cases__description {
   text-align: center;
   color: var(--accentColor);
+}
+
+.cases__list {
+  margin-top: 30px;
+  display: grid;
+  justify-content: center;
+  grid-row-gap: 8px;
+}
+@media screen and (min-width: 768px) {
+  .cases__list {
+    grid-template-columns: repeat(3, 223px);
+    grid-column-gap: 18px;
+    grid-row-gap: 18px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .cases__list {
+    margin-top: 36px;
+    grid-template-columns: repeat(3, 421px);
+  }
 }/*# sourceMappingURL=main.css.map */

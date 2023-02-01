@@ -10,3 +10,21 @@
     text-align: center;
     color: var(--accentColor);
 }
+
+.cases__list {
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 8px;
+
+    @media screen and (min-width:$tablet) {
+        grid-template-columns: repeat(3, 223px);
+        grid-column-gap: 18px;
+        grid-row-gap: 18px;
+    }
+
+    @media screen and (min-width:$desktop) {
+        margin-top: 36px;
+        grid-template-columns: repeat(3, 421px);
+    }
+}
