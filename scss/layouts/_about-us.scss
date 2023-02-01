@@ -1,0 +1,40 @@
+.section__about-us {
+    margin-bottom: 56px;
+    background-color: var(--btnColor);
+
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 80px;
+    }
+}
+
+.about-us__img {
+    min-width: 320px;
+
+    @media screen and (min-width: $tablet) {
+        min-width: 368px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        min-width: 670px;
+    }
+}
+
+.about-us__info {
+    padding: 79px 20px;
+
+    @media screen and (min-width: $tablet) {
+        padding: 62px 32px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        padding: 80px 20px;
+    }
+
+
+}

@@ -115,6 +115,69 @@ body {
   }
 }
 
+.title_left {
+  text-align: left;
+}
+
+.section {
+  margin: auto;
+  max-width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .section {
+    max-width: 1360px;
+  }
+}
+
+.section__about-us {
+  margin-bottom: 56px;
+  background-color: var(--btnColor);
+}
+@media screen and (min-width: 768px) {
+  .section__about-us {
+    display: flex;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .section__about-us {
+    margin-bottom: 80px;
+  }
+}
+
+.about-us__img {
+  min-width: 320px;
+}
+@media screen and (min-width: 768px) {
+  .about-us__img {
+    min-width: 368px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .about-us__img {
+    min-width: 670px;
+  }
+}
+
+.about-us__info {
+  padding: 79px 20px;
+}
+@media screen and (min-width: 768px) {
+  .about-us__info {
+    padding: 62px 32px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-us__info {
+    padding: 80px 20px;
+  }
+}
+
 .section__cases {
   margin-bottom: 40px;
 }
