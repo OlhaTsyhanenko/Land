@@ -4,7 +4,8 @@
 
 
     @media screen and (min-width: $tablet) {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         margin-bottom: 50px;
     }
 
@@ -14,15 +15,7 @@
 }
 
 .about-us__img {
-    min-width: 320px;
-
-    @media screen and (min-width: $tablet) {
-        min-width: 368px;
-    }
-
-    @media screen and (min-width: $desktop) {
-        min-width: 670px;
-    }
+    width: 100%;
 }
 
 .about-us__info {

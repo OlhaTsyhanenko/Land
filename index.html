@@ -18,607 +18,697 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <section class="section section__about-us">
-      <picture class="about-us__img">
-        <source
-          srcset="
-            ./images/about-us/team_desktop.jpg    1x,
-            ./images/about-us/team_desktop@2x.jpg 2x
-          "
-          media="(min-width: 1360px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="
-            ./images/about-us/team_tablet.jpg    1x,
-            ./images/about-us/team_tablet@2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="
-            ./images/about-us/team_mobile.jpg    1x,
-            ./images/about-us/team_mobile@2x.jpg 2x
-          "
-          media="(max-width: 767.99px)"
-          type="image/jpeg"
-        />
-        <img src="./images/about-us/team_desktop.jpg.jpg" alt="team" />
-      </picture>
-
-      <div class="about-us__info">
-        <p class="info__description">What you are looking for</p>
-        <h2 class="title title_left">We provide bespoke solutions</h2>
-        <p class="info__description">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <button type="button" class="btn btn_read">Read More</button>
+    <header class="header overlay section">
+      <div class="nav__wrapper">
+        <div class="header__logo">
+          <svg width="40px" height="35px" class="logo__img">
+            <use href="./images/symbol-defs.svg#icon-book-open"></use>
+          </svg>
+          <span class="logo__word">Finance</span>
+          <span class="logo__second-word">Ledger</span>
+        </div>
+        <nav class="header__nav">
+          <ul class="list nav__list">
+            <li class="nav__item">
+              <a href="" class="link nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="link nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="link nav__link">Cases</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="link nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="link nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </section>
-    <section class="section__cases">
-      <p class="cases__description">This is what we do</p>
-      <h2 class="title">Business Cases</h2>
-      <p class="cases__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-        sapiente!
-      </p>
-      <ul class="list cases__list">
-        <li class="cases__item">
-          <picture class="cases_img">
-            <source
-              srcset="
-                ./images/cases/Rectangle1_desktop.jpg    1x,
-                ./images/cases/Rectangle1@2x_desktop.jpg 2x
-              "
-              media="(min-width: 1360px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle1_tablet.jpg    1x,
-                ./images/cases/Rectangle1@2x_tablet.jpg 2x
-              "
-              media="(min-width: 768px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle1_mobile.jpg    1x,
-                ./images/cases/Rectangle1@2x_mobile.jpg 2x
-              "
-              media="(max-width: 767px)"
-              type="image/jpeg"
-            />
-            <img src="./images/cases/Rectangle1_desktop.jpg" alt="Rectangle1" />
-          </picture>
-        </li>
-        <li class="cases__item">
-          <picture class="cases_img">
-            <source
-              srcset="
-                ./images/cases/Rectangle2_desktop.jpg    1x,
-                ./images/cases/Rectangle2@2x_desktop.jpg 2x
-              "
-              media="(min-width: 1360px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle2_tablet.jpg    1x,
-                ./images/cases/Rectangle2@2x_tablet.jpg 2x
-              "
-              media="(min-width: 768px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle2_mobile.jpg    1x,
-                ./images/cases/Rectangle2@2x_mobile.jpg 2x
-              "
-              media="(max-width: 767px)"
-              type="image/jpeg"
-            />
-            <img src="./images/cases/Rectangle2_desktop.jpg" alt="Rectangle2" />
-          </picture>
-        </li>
-        <li class="cases__item">
-          <picture class="cases_img">
-            <source
-              srcset="
-                ./images/cases/Rectangle3_desktop.jpg    1x,
-                ./images/cases/Rectangle3@2x_desktop.jpg 2x
-              "
-              media="(min-width: 1360px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle3_tablet.jpg    1x,
-                ./images/cases/Rectangle3@2x_tablet.jpg 2x
-              "
-              media="(min-width: 768px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle3_mobile.jpg    1x,
-                ./images/cases/Rectangle3@2x_mobile.jpg 2x
-              "
-              media="(max-width: 767px)"
-              type="image/jpeg"
-            />
-            <img src="./images/cases/Rectangle3_desktop.jpg" alt="Rectangle3" />
-          </picture>
-        </li>
-        <li class="cases__item">
-          <picture class="cases_img">
-            <source
-              srcset="
-                ./images/cases/Rectangle4_desktop.jpg    1x,
-                ./images/cases/Rectangle4@2x_desktop.jpg 2x
-              "
-              media="(min-width: 1360px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle4_tablet.jpg    1x,
-                ./images/cases/Rectangle4@2x_tablet.jpg 2x
-              "
-              media="(min-width: 768px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle4_mobile.jpg    1x,
-                ./images/cases/Rectangle4@2x_mobile.jpg 2x
-              "
-              media="(max-width: 767px)"
-              type="image/jpeg"
-            />
-            <img src="./images/cases/Rectangle4_desktop.jpg" alt="Rectangle4" />
-          </picture>
-        </li>
-        <li class="cases__item">
-          <picture class="cases_img">
-            <source
-              srcset="
-                ./images/cases/Rectangle5_desktop.jpg    1x,
-                ./images/cases/Rectangle5@2x_desktop.jpg 2x
-              "
-              media="(min-width: 1360px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle5_tablet.jpg    1x,
-                ./images/cases/Rectangle5@2x_tablet.jpg 2x
-              "
-              media="(min-width: 768px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle5_mobile.jpg    1x,
-                ./images/cases/Rectangle5@2x_mobile.jpg 2x
-              "
-              media="(max-width: 767px)"
-              type="image/jpeg"
-            />
-            <img src="./images/cases/Rectangle5_desktop.jpg" alt="Rectangle5" />
-          </picture>
-        </li>
-        <li class="cases__item">
-          <picture class="cases_img">
-            <source
-              srcset="
-                ./images/cases/Rectangle6_desktop.jpg    1x,
-                ./images/cases/Rectangle6@2x_desktop.jpg 2x
-              "
-              media="(min-width: 1360px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle6_tablet.jpg    1x,
-                ./images/cases/Rectangle6@2x_tablet.jpg 2x
-              "
-              media="(min-width: 768px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/cases/Rectangle6_mobile.jpg    1x,
-                ./images/cases/Rectangle6@2x_mobile.jpg 2x
-              "
-              media="(max-width: 767px)"
-              type="image/jpeg"
-            />
-            <img src="./images/cases/Rectangle6_desktop.jpg" alt="Rectangle6" />
-          </picture>
-        </li>
-      </ul>
-    </section>
-    <section class="section section__blog">
-      <div class="blog__info">
-        <p class="blog__description">April 16 2020</p>
-        <h2 class="title title_left">Blog Post One</h2>
-        <p class="blog__description">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <button type="button" class="btn btn_read read-blog">
-          Read Our Blog
+      <div class="hero">
+        <h1 class="hero__title">The Sky Is The Limit</h1>
+        <h2 class="title">We provide world class financial assistance</h2>
+        <button type="button" class="btn btn-hero">
+          <svg width="9px" height="18px">
+            <use href="./images/symbol-defs.svg#icon-angle-right"></use>
+          </svg>
+          <span>Read More</span>
         </button>
       </div>
+    </header>
+    <main>
+      <section class="section section__about-us">
+        <picture class="about-us__img">
+          <source
+            srcset="
+              ./images/about-us/team_desktop.jpg    1x,
+              ./images/about-us/team_desktop@2x.jpg 2x
+            "
+            media="(min-width: 1360px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./images/about-us/team_tablet.jpg    1x,
+              ./images/about-us/team_tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./images/about-us/team_mobile.jpg    1x,
+              ./images/about-us/team_mobile@2x.jpg 2x
+            "
+            media="(max-width: 767.99px)"
+            type="image/jpeg"
+          />
+          <img
+            src="./images/about-us/team_desktop.jpg.jpg"
+            alt="team"
+            class="about-us__img"
+          />
+        </picture>
 
-      <picture class="blog__img">
-        <source
-          srcset="
-            ./images/blog-post/cup_desktop.jpg    1x,
-            ./images/blog-post/cup_desktop@2x.jpg 2x
-          "
-          media="(min-width: 1360px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="
-            ./images/blog-post/cup_tablet.jpg    1x,
-            ./images/blog-post/cup_tablet@2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="
-            ./images/blog-post/cup_mobile.jpg    1x,
-            ./images/blog-post/cup_mobile@2x.jpg 2x
-          "
-          media="(max-width: 767.99px)"
-          type="image/jpeg"
-        />
-        <img src="./images/blog-post/cup__desktop.jpg.jpg" alt="cup" />
-      </picture>
-    </section>
+        <div class="about-us__info">
+          <p class="info__description">What you are looking for</p>
+          <h2 class="title title_left">We provide bespoke solutions</h2>
+          <p class="info__description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
+            harum illum dolore explicabo ab dolores itaque rerum temporibus
+            doloribus iste maiores deleniti?
+          </p>
+          <button type="button" class="btn btn_read">Read More</button>
+        </div>
+      </section>
+      <section class="section__cases">
+        <p class="cases__description">This is what we do</p>
+        <h2 class="title">Business Cases</h2>
+        <p class="cases__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
+        <ul class="list cases__list">
+          <li class="cases__item">
+            <picture class="cases_img">
+              <source
+                srcset="
+                  ./images/cases/Rectangle1_desktop.jpg    1x,
+                  ./images/cases/Rectangle1@2x_desktop.jpg 2x
+                "
+                media="(min-width: 1360px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle1_tablet.jpg    1x,
+                  ./images/cases/Rectangle1@2x_tablet.jpg 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle1_mobile.jpg    1x,
+                  ./images/cases/Rectangle1@2x_mobile.jpg 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                src="./images/cases/Rectangle1_desktop.jpg"
+                alt="Rectangle1"
+              />
+            </picture>
+          </li>
+          <li class="cases__item">
+            <picture class="cases_img">
+              <source
+                srcset="
+                  ./images/cases/Rectangle2_desktop.jpg    1x,
+                  ./images/cases/Rectangle2@2x_desktop.jpg 2x
+                "
+                media="(min-width: 1360px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle2_tablet.jpg    1x,
+                  ./images/cases/Rectangle2@2x_tablet.jpg 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle2_mobile.jpg    1x,
+                  ./images/cases/Rectangle2@2x_mobile.jpg 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                src="./images/cases/Rectangle2_desktop.jpg"
+                alt="Rectangle2"
+              />
+            </picture>
+          </li>
+          <li class="cases__item">
+            <picture class="cases_img">
+              <source
+                srcset="
+                  ./images/cases/Rectangle3_desktop.jpg    1x,
+                  ./images/cases/Rectangle3@2x_desktop.jpg 2x
+                "
+                media="(min-width: 1360px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle3_tablet.jpg    1x,
+                  ./images/cases/Rectangle3@2x_tablet.jpg 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle3_mobile.jpg    1x,
+                  ./images/cases/Rectangle3@2x_mobile.jpg 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                src="./images/cases/Rectangle3_desktop.jpg"
+                alt="Rectangle3"
+              />
+            </picture>
+          </li>
+          <li class="cases__item">
+            <picture class="cases_img">
+              <source
+                srcset="
+                  ./images/cases/Rectangle4_desktop.jpg    1x,
+                  ./images/cases/Rectangle4@2x_desktop.jpg 2x
+                "
+                media="(min-width: 1360px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle4_tablet.jpg    1x,
+                  ./images/cases/Rectangle4@2x_tablet.jpg 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle4_mobile.jpg    1x,
+                  ./images/cases/Rectangle4@2x_mobile.jpg 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                src="./images/cases/Rectangle4_desktop.jpg"
+                alt="Rectangle4"
+              />
+            </picture>
+          </li>
+          <li class="cases__item">
+            <picture class="cases_img">
+              <source
+                srcset="
+                  ./images/cases/Rectangle5_desktop.jpg    1x,
+                  ./images/cases/Rectangle5@2x_desktop.jpg 2x
+                "
+                media="(min-width: 1360px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle5_tablet.jpg    1x,
+                  ./images/cases/Rectangle5@2x_tablet.jpg 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle5_mobile.jpg    1x,
+                  ./images/cases/Rectangle5@2x_mobile.jpg 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                src="./images/cases/Rectangle5_desktop.jpg"
+                alt="Rectangle5"
+              />
+            </picture>
+          </li>
+          <li class="cases__item">
+            <picture class="cases_img">
+              <source
+                srcset="
+                  ./images/cases/Rectangle6_desktop.jpg    1x,
+                  ./images/cases/Rectangle6@2x_desktop.jpg 2x
+                "
+                media="(min-width: 1360px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle6_tablet.jpg    1x,
+                  ./images/cases/Rectangle6@2x_tablet.jpg 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/cases/Rectangle6_mobile.jpg    1x,
+                  ./images/cases/Rectangle6@2x_mobile.jpg 2x
+                "
+                media="(max-width: 767px)"
+                type="image/jpeg"
+              />
+              <img
+                src="./images/cases/Rectangle6_desktop.jpg"
+                alt="Rectangle6"
+              />
+            </picture>
+          </li>
+        </ul>
+      </section>
+      <section class="section section__blog">
+        <div class="blog__info">
+          <p class="blog__description">April 16 2020</p>
+          <h2 class="title title_left">Blog Post One</h2>
+          <p class="blog__description">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
+            harum illum dolore explicabo ab dolores itaque rerum temporibus
+            doloribus iste maiores deleniti?
+          </p>
+          <button type="button" class="btn btn_read read-blog">
+            Read Our Blog
+          </button>
+        </div>
 
-    <section class="section__team">
-      <p class="team__description">Who we are</p>
-      <h2 class="title">Our Professional Team</h2>
-      <p class="team__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-        sapiente!
-      </p>
-      <ul class="list team__list">
-        <li class="team__item">
-          <picture class="team__img">
-            <source
-              srcset="
-                ./images/our-team/John_desktop.jpg    1x,
-                ./images/our-team/John_desktop@2x.jpg 2x
-              "
-              media="(min-width: 1360px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/our-team/John_tablet.jpg    1x,
-                ./images/our-team/John_tablet@2x.jpg 2x
-              "
-              media="(min-width: 768px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/our-team/John_mobile.jpg    1x,
-                ./images/our-team/John_mobile@2x.jpg 2x
-              "
-              media="(max-width: 767.99px)"
-              type="image/jpeg"
-            />
-            <img src="./images/our-team/John_desktop.jpg.jpg" alt="John Doe" />
-            <div class="socnetwork__wrapper">
-              <ul class="list socnetwork__list">
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="facebook"
-                    class="socnetwork__link"
-                  >
-                    <svg width="35px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="twitter"
-                    class="socnetwork__link"
-                  >
-                    <svg width="35px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="utub"
-                    class="socnetwork__link"
-                  >
-                    <svg width="40px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-utub"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="linkedin"
-                    class="socnetwork__link"
-                  >
-                    <svg width="31px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </picture>
-          <p class="team__name">John Doe</p>
-          <p class="team__description">President</p>
-        </li>
-        <li class="team__item">
-          <picture class="team__img">
-            <source
-              srcset="
-                ./images/our-team/Jane_desktop.jpg    1x,
-                ./images/our-team/Jane_desktop@2x.jpg 2x
-              "
-              media="(min-width: 1360px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/our-team/Jane_tablet.jpg    1x,
-                ./images/our-team/Jane_tablet@2x.jpg 2x
-              "
-              media="(min-width: 768px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/our-team/Jane_mobile.jpg    1x,
-                ./images/our-team/Jane_mobile@2x.jpg 2x
-              "
-              media="(max-width: 767.99px)"
-              type="image/jpeg"
-            />
-            <img src="./images/our-team/Jane_desktop.jpg.jpg" alt="Jane Doe" />
-            <div class="socnetwork__wrapper">
-              <ul class="list socnetwork__list">
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="facebook"
-                    class="socnetwork__link"
-                  >
-                    <svg width="35px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="twitter"
-                    class="socnetwork__link"
-                  >
-                    <svg width="35px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="utub"
-                    class="socnetwork__link"
-                  >
-                    <svg width="40px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-utub"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="linkedin"
-                    class="socnetwork__link"
-                  >
-                    <svg width="31px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </picture>
-          <p class="team__name">Jane Doe</p>
-          <p class="team__description">Vice President</p>
-        </li>
-        <li class="team__item">
-          <picture class="team__img">
-            <source
-              srcset="
-                ./images/our-team/Steve_desktop.jpg    1x,
-                ./images/our-team/Steve_desktop@2x.jpg 2x
-              "
-              media="(min-width: 1360px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/our-team/Steve_tablet.jpg    1x,
-                ./images/our-team/Steve_tablet@2x.jpg 2x
-              "
-              media="(min-width: 768px)"
-              type="image/jpeg"
-            />
-            <source
-              srcset="
-                ./images/our-team/Steve_mobile.jpg    1x,
-                ./images/our-team/Steve_mobile@2x.jpg 2x
-              "
-              media="(max-width: 767.99px)"
-              type="image/jpeg"
-            />
-            <img
-              src="./images/our-team/Steve_desktop.jpg.jpg"
-              alt="Steve Smith"
-            />
-            <div class="socnetwork__wrapper">
-              <ul class="list socnetwork__list">
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="facebook"
-                    class="socnetwork__link"
-                  >
-                    <svg width="35px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="twitter"
-                    class="socnetwork__link"
-                  >
-                    <svg width="35px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="utub"
-                    class="socnetwork__link"
-                  >
-                    <svg width="40px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-utub"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="socnetwork__item">
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    aria-label="linkedin"
-                    class="socnetwork__link"
-                  >
-                    <svg width="31px" height="35px">
-                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </picture>
-          <p class="team__name">Steve Smith</p>
-          <p class="team__description">Marketing Head</p>
-        </li>
-      </ul>
-    </section>
+        <picture>
+          <source
+            srcset="
+              ./images/blog-post/cup_desktop.jpg    1x,
+              ./images/blog-post/cup_desktop@2x.jpg 2x
+            "
+            media="(min-width: 1360px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./images/blog-post/cup_tablet.jpg    1x,
+              ./images/blog-post/cup_tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./images/blog-post/cup_mobile.jpg    1x,
+              ./images/blog-post/cup_mobile@2x.jpg 2x
+            "
+            media="(max-width: 767.99px)"
+            type="image/jpeg"
+          />
+          <img
+            src="./images/blog-post/cup__desktop.jpg.jpg"
+            alt="cup"
+            class="blog__img"
+          />
+        </picture>
+      </section>
 
-    <section class="section section__request">
-      <picture class="request__img">
-        <source
-          srcset="
-            ./images/callback/callback_desktop.jpg    1x,
-            ./images/callback/callback_desktop@2x.jpg 2x
-          "
-          media="(min-width: 1360px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="
-            ./images/callback/callback_tablet.jpg    1x,
-            ./images/callback/callback_tablet@2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-          type="image/jpeg"
-        />
-        <source
-          srcset="
-            ./images/callback/callback_mobile.jpg    1x,
-            ./images/callback/callback_mobile@2x.jpg 2x
-          "
-          media="(max-width: 767.99px)"
-          type="image/jpeg"
-        />
-        <img src="./images/callback/callback_desktop.jpg.jpg" alt="team" />
-      </picture>
-      <div class="form__wrapper">
-        <h2 class="title">Request Callback</h2>
-        <form class="request__form">
-          <div class="form__field">
-            <input
-              type="text"
-              name="name"
-              id="name"
-              required
-              class="form__input"
-              placeholder=" "
-            />
-            <label for="name" class="form__label">Enter your name</label>
-          </div>
-          <div class="form__field">
-            <input
-              type="email"
-              name="email"
-              id="email"
-              required
-              class="form__input"
-              placeholder=" "
-            />
-            <label for="email" class="form__label">Enter email*</label>
-          </div>
-          <button type="submit" class="btn btn_send">Send</button>
-        </form>
-      </div>
-    </section>
+      <section class="section__team">
+        <p class="team__description">Who we are</p>
+        <h2 class="title">Our Professional Team</h2>
+        <p class="team__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
+        <ul class="list team__list">
+          <li class="team__item">
+            <picture class="team__img">
+              <source
+                srcset="
+                  ./images/our-team/John_desktop.jpg    1x,
+                  ./images/our-team/John_desktop@2x.jpg 2x
+                "
+                media="(min-width: 1360px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/our-team/John_tablet.jpg    1x,
+                  ./images/our-team/John_tablet@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/our-team/John_mobile.jpg    1x,
+                  ./images/our-team/John_mobile@2x.jpg 2x
+                "
+                media="(max-width: 767.99px)"
+                type="image/jpeg"
+              />
+              <img
+                src="./images/our-team/John_desktop.jpg.jpg"
+                alt="John Doe"
+              />
+              <div class="socnetwork__wrapper">
+                <ul class="list socnetwork__list">
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="facebook"
+                      class="socnetwork__link"
+                    >
+                      <svg width="35px" height="35px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="twitter"
+                      class="socnetwork__link"
+                    >
+                      <svg width="35px" height="35px">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="utub"
+                      class="socnetwork__link"
+                    >
+                      <svg width="40px" height="35px">
+                        <use href="./images/symbol-defs.svg#icon-utub"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="linkedin"
+                      class="socnetwork__link"
+                    >
+                      <svg width="31px" height="35px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </picture>
+            <p class="team__name">John Doe</p>
+            <p class="team__description">President</p>
+          </li>
+          <li class="team__item">
+            <picture class="team__img">
+              <source
+                srcset="
+                  ./images/our-team/Jane_desktop.jpg    1x,
+                  ./images/our-team/Jane_desktop@2x.jpg 2x
+                "
+                media="(min-width: 1360px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/our-team/Jane_tablet.jpg    1x,
+                  ./images/our-team/Jane_tablet@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/our-team/Jane_mobile.jpg    1x,
+                  ./images/our-team/Jane_mobile@2x.jpg 2x
+                "
+                media="(max-width: 767.99px)"
+                type="image/jpeg"
+              />
+              <img
+                src="./images/our-team/Jane_desktop.jpg.jpg"
+                alt="Jane Doe"
+              />
+              <div class="socnetwork__wrapper">
+                <ul class="list socnetwork__list">
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="facebook"
+                      class="socnetwork__link"
+                    >
+                      <svg width="35px" height="35px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="twitter"
+                      class="socnetwork__link"
+                    >
+                      <svg width="35px" height="35px">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="utub"
+                      class="socnetwork__link"
+                    >
+                      <svg width="40px" height="35px">
+                        <use href="./images/symbol-defs.svg#icon-utub"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="linkedin"
+                      class="socnetwork__link"
+                    >
+                      <svg width="31px" height="35px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </picture>
+            <p class="team__name">Jane Doe</p>
+            <p class="team__description">Vice President</p>
+          </li>
+          <li class="team__item">
+            <picture class="team__img">
+              <source
+                srcset="
+                  ./images/our-team/Steve_desktop.jpg    1x,
+                  ./images/our-team/Steve_desktop@2x.jpg 2x
+                "
+                media="(min-width: 1360px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/our-team/Steve_tablet.jpg    1x,
+                  ./images/our-team/Steve_tablet@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+                type="image/jpeg"
+              />
+              <source
+                srcset="
+                  ./images/our-team/Steve_mobile.jpg    1x,
+                  ./images/our-team/Steve_mobile@2x.jpg 2x
+                "
+                media="(max-width: 767.99px)"
+                type="image/jpeg"
+              />
+              <img
+                src="./images/our-team/Steve_desktop.jpg.jpg"
+                alt="Steve Smith"
+              />
+              <div class="socnetwork__wrapper">
+                <ul class="list socnetwork__list">
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="facebook"
+                      class="socnetwork__link"
+                    >
+                      <svg width="35px" height="35px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="twitter"
+                      class="socnetwork__link"
+                    >
+                      <svg width="35px" height="35px">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="utub"
+                      class="socnetwork__link"
+                    >
+                      <svg width="40px" height="35px">
+                        <use href="./images/symbol-defs.svg#icon-utub"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socnetwork__item">
+                    <a
+                      href=""
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      aria-label="linkedin"
+                      class="socnetwork__link"
+                    >
+                      <svg width="31px" height="35px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </picture>
+            <p class="team__name">Steve Smith</p>
+            <p class="team__description">Marketing Head</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section section__request">
+        <picture>
+          <source
+            srcset="
+              ./images/callback/callback_desktop.jpg    1x,
+              ./images/callback/callback_desktop@2x.jpg 2x
+            "
+            media="(min-width: 1360px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./images/callback/callback_tablet.jpg    1x,
+              ./images/callback/callback_tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              ./images/callback/callback_mobile.jpg    1x,
+              ./images/callback/callback_mobile@2x.jpg 2x
+            "
+            media="(max-width: 767.99px)"
+            type="image/jpeg"
+          />
+          <img
+            src="./images/callback/callback_desktop.jpg.jpg"
+            alt="team"
+            class="request__img"
+          />
+        </picture>
+        <div class="form__wrapper">
+          <h2 class="title">Request Callback</h2>
+          <form class="request__form">
+            <div class="form__field">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                class="form__input"
+                placeholder=" "
+              />
+              <label for="name" class="form__label">Enter your name</label>
+            </div>
+            <div class="form__field">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                class="form__input"
+                placeholder=" "
+              />
+              <label for="email" class="form__label">Enter email*</label>
+            </div>
+            <button type="submit" class="btn btn_send">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer section">
       <ul class="list socnetwork__list">
