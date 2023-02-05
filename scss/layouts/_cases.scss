@@ -9,6 +9,11 @@
 .cases__description {
     text-align: center;
     color: var(--accentColor);
+
+    @media screen and (max-width: 1359px) {
+        padding-left: 56px;
+        padding-right: 56px;
+    }
 }
 
 .cases__list {

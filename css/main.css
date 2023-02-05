@@ -358,6 +358,12 @@ body {
   text-align: center;
   color: var(--accentColor);
 }
+@media screen and (max-width: 1359px) {
+  .cases__description {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+}
 
 .cases__list {
   margin-top: 30px;
@@ -431,6 +437,12 @@ body {
 .team__description {
   color: var(--accentColor);
   text-align: center;
+}
+@media screen and (max-width: 1359px) {
+  .team__description {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
 }
 
 .team__list {

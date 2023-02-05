@@ -13,6 +13,10 @@
 .team__description {
     color: var(--accentColor);
     text-align: center;
+    @media screen and (max-width: 1359px) {
+        padding-left: 56px;
+        padding-right: 56px;
+    }
 }
 
 .team__list {
